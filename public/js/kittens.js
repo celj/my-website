@@ -30,8 +30,8 @@ function draw() {
 		let newX = x + strokePath.dx * 0.2;
 		let newY = y + strokePath.dy * 0.2;
 		if (pen == 'down') {
-			stroke('#aeaeae');
-			strokeWeight(1);
+			stroke('#333333');
+			strokeWeight(1.5);
 			line(x, y, newX, newY);
 		}
 		pen = strokePath.pen;
