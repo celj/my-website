@@ -3,6 +3,7 @@ h1,
 h2,
 h3,
 p,
+canvas,
 
 section {
 	display: block
@@ -18,7 +19,6 @@ body {
 }
 
 body {
-	background: #000000;
 	color: #aeaeae;
 	font-size: 18px;
 	line-height: 1.4;
@@ -52,6 +52,10 @@ p {
 	margin-bottom: 1rem;
 	line-height: 1.2;
 	font-weight: normal;
+}
+
+canvas {
+	display: block;
 }
 
 .container {
