@@ -5,7 +5,7 @@ let x, y;
 let pen;
 
 function windowResized() {
-	resizeCanvas(windowWidth,windowHeight);
+	resizeCanvas(windowWidth, windowHeight);
 	background(0);
 }
 
@@ -38,7 +38,7 @@ function draw() {
 		strokePath = null;
 		x = newX;
 		y = newY;
-		
+
 		if (pen !== 'end') {
 			model.generate(gotSketch);
 		} else {
