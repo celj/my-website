@@ -1,0 +1,6 @@
+[submodule "public/data-course"]
+	path = public/data-course
+	url = git@github.com:celj/data-course.git
+[submodule "public/itam-cheat-sheets"]
+	path = public/itam-cheat-sheets
+	url = git@github.com:celj/itam-cheat-sheets.git
