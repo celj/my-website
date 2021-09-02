@@ -4,3 +4,6 @@
 [submodule "public/itam-cheat-sheets"]
 	path = public/itam-cheat-sheets
 	url = git@github.com:celj/itam-cheat-sheets.git
+[submodule "public/cv"]
+	path = public/cv
+	url = git@github.com:celj/cv.git
