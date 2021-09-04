@@ -75,6 +75,10 @@ canvas {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* unvisited link */
 
 a:link {
