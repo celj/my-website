@@ -9,7 +9,7 @@ section {
 }
 
 body {
-  background-color: #000000;
+  background-color: #292e39;
   line-height: 1.2;
 }
 
@@ -18,8 +18,17 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 body {
-  color: #aeaeae;
+  color: #eceff4;
   font-size: 18px;
   line-height: 1.4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -46,7 +55,7 @@ h3 {
   margin-bottom: 1rem;
   font-size: 1.5em;
   line-height: 1.2;
-  font-weight: lighter;
+  font-weight: 550;
 }
 
 p {
@@ -61,12 +70,12 @@ canvas {
 
 .fa {
   width: 50px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
 }
 
 .fa:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .container {
@@ -78,30 +87,33 @@ canvas {
 
 a {
   text-decoration: none;
+  padding: 0% 0.3% 0% 0.3%;
+  background-color: #3b4252;
+  border-radius: 4px;
 }
 
 /* unvisited link */
 
 a:link {
-  color: #4062bb;
+  color: #81a1c1;
 }
 
 /* visited link */
 
 a:visited {
-  color: #006853;
+  color: #a3be8c;
 }
 
 /* mouse over link */
 
 a:hover {
-  color: #aeaeae;
+  color: #d8dee9;
 }
 
 /* selected link */
 
 a:active {
-  color: #4062bb;
+  color: #81a1c1;
 }
 
 @media only screen and (min-width: 640px) {
