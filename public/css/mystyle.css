@@ -39,7 +39,7 @@ h1 {
   margin-bottom: 2rem;
   font-size: 3em;
   line-height: 1.2;
-  font-weight: normal;
+  font-weight: 600;
   margin-top: 0.1em;
   margin-bottom: 1em;
 }
@@ -60,7 +60,7 @@ h3 {
 
 p {
   margin-bottom: 1rem;
-  line-height: 1.2;
+  line-height: 1.65;
   font-weight: normal;
 }
 
