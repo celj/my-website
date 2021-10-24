@@ -13,7 +13,7 @@ function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
 	canvas.position(0, 0);
 	canvas.style('z-index', '-1');
-	background('#292e39');
+	background('#f8f9fb');
 	setupNewSketch();
 	model = ml5.SketchRNN('cat', modelReady);
 }
@@ -30,7 +30,7 @@ function draw() {
 		let newX = x + strokePath.dx * 0.2;
 		let newY = y + strokePath.dy * 0.2;
 		if (pen == 'down') {
-			stroke('#4c566a');
+			stroke('#d8dee9');
 			strokeWeight(1.5);
 			line(x, y, newX, newY);
 		}
